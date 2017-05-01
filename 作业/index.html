@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p onclick="Mysort2()">a=<span class="span" id="span1">3</span>,b=<span class="span" id="span2">4</span></p>
+    <form>
+        <p onmousemove="xia01()" onmouseout="xia02()">城市
+            <select id="chengshi" style="display:none;">
+                <option selected="selected" value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">广州</option>
+                <option value="4">深圳</option>
+                <option value="5">重庆</option>
+                <option value="6">成都</option>
+                <option value="7">武汉</option>
+                <option value="8">天津</option>
+                <option value="9">长沙</option>
+                <option value="10">济南</option>
+            </select>
+        </p>
+    </form>
+    <form>
+        <p>请你输入成绩</p>
+        <input type="text" id="shuru"/>
+        <input type="button" value="提交" onclick="text_041()"/>
+        <p>今天星期几?</p>
+        <input type="text" id="sr"/>
+        <input type="button" value="提交" onclick="text_042()"/>
+    </form>
+    <div class="box">
+        <img class="box_img1" id="box_img1" src="images/ruiwen1.jpg"/>
+        <img class="box_img2" id="box_img2" src="images/ruiwen2.jpg"/>
+        <img class="box_img3" id="box_img3" src="images/ruiwen3.jpg"/>
+        <img class="box_img4" id="box_img4" src="images/ruiwen4.jpg"/>
+        <img class="box_img5" id="box_img5" src="images/ruiwen5.jpg"/>
+        <div class="box-p">
+            <p class="box_p" id="box_p1" onclick="text_05(1)">1</p>
+            <p id="box_p2" onclick="text_05(2)">2</p>
+            <p id="box_p3" onclick="text_05(3)">3</p>
+            <p id="box_p4" onclick="text_05(4)">4</p>
+            <p id="box_p5" onclick="text_05(5)">5</p>
+        </div>
+    </div>
+    <div class="box1">
+        <p>请为下面的DIV设置样式<span onclick="text_06()">点击设置</span></p>
+        <div class="box1_main" id="box1_main"></div>
+        <div class="box1_content" id="box1_content">
+            <div class="box1_content_main">
+                <p>请选择颜色:
+                    <span class="main_span1" onclick="text_07(1)">红</span>
+                    <span class="main_span2" onclick="text_07(2)">黄</span>
+                    <span class="main_span3" onclick="text_07(3)">蓝</span>
+                </p>
+                <p>请选择宽度(px):
+                    <span onclick="text_07(4)">200</span>
+                    <span onclick="text_07(5)">300</span>
+                    <span onclick="text_07(6)">400</span>
+                </p>
+                <p>请选择高度(px):
+                    <span onclick="text_07(7)">200</span>
+                    <span onclick="text_07(8)">300</span>
+                    <span onclick="text_07(9)">400</span>
+                </p>
+                <span class="main_span" onclick="text_10(1)">恢复</span>
+                <span onclick="text_10(2)">确定</span>
+            </div>
+        </div>
+    </div>
+    <!-- HTML结构 -->
+    <div id="test-div">
+      <div class="c-red">
+        <p id="test-p">JavaScript</p>
+        <p>Java</p>
+      </div>
+      <div class="c-red c-green">
+        <p>Python</p>
+        <p>Ruby</p>
+        <p>Swift</p>
+      </div>
+      <div class="c-green">
+        <p>Scheme</p>
+        <p>Haskell</p>
+      </div>
+    </div>
+    <ul id="shangchu">
+        <li>111<a href="">删除</a></li>
+        <li>222<a href="">删除</a></li>
+        <li>665<a href="">删除</a></li>
+      </ul>
+    <script src="js/style.js" type="text/javascript"></script>
+</body>
+</html>

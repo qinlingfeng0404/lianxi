@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+/*
+作业一
+ */
+.box{
+    width: 150px;
+    height: 120px;
+    background-color: #CDFF00;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    transition:all 0.8s;
+}
+.box>p{
+    float: left;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+.box>p.box_p{
+    width: 20px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #FFCD00;
+}
+.box>p.box_p>i{
+    display: inline-block;
+    transform:rotate(0deg); 
+    -webkit-transform:rotate(0deg); 
+    -ms-transform:rotate(0deg); 
+    -moz-transform:rotate(0deg); 
+    transition:all 0.2s;
+}
+/*
+作业二
+ */
+.box_main{
+    width: 500px;
+    height: 500px;
+    border:1px solid #CCC;
+    margin-top: 200px;
+}
+.main_div{
+    width: 100px;
+    height: 100px;
+    border:1px solid #000;
+}
+/*
+作业三
+ */
+.box_list{
+    width:500px;
+    height: 100px;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+.box_list tr th{
+    width: 100px;
+    height: 24px;
+    border: 1px solid #CCC;
+}
+.box_list tr td{
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #CCC;
+}
+.sc{
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #666666;
+    color: #ccc;
+    margin-left: 30px;
+}
+.box_zhu{
+    width:900px;
+    height: 900px;
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+.box_ls{
+    width: 120px;
+    height: 900px;
+    margin: 0 auto;
+}
+.box_ls>p{
+    float: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #7EFF00;
+}
+.box_ls>p>i{
+    display: block;
+    padding: 0px 4px;
+    float: left;
+    transform:rotate(0deg); 
+    -webkit-transform:rotate(0deg); 
+    -ms-transform:rotate(0deg); 
+    -moz-transform:rotate(0deg); 
+    transition:all 0.8s;
+}
+.box_ls>p>span{
+    display: block;
+    float: left;
+}
+.box_ls>ul{
+    display: none;
+    float: left;
+    width: 100%;
+}
+.box_ls>ul>li{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #666666;
+    list-style: none;
+}

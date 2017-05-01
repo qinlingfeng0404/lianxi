@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.box_img{
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    border: 1px solid #CCC; 
+}
+.img_main{
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid #CCC;
+    position: relative;
+}
+.img_main>img{
+    width: 100%;
+    height: 100%;
+}
+.img_main>p.img_p1{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    color: #FFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2; 
+}
+.img_main>p.img_p2{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2; 
+}
+.img_main>b.right{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    color: #FFF;
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    z-index: 2; 
+}
+.img_main>b.left{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    color: #FFF;
+    position: absolute;
+    top: 360px;
+    right: 10px;
+    z-index: 2; 
+}
+.box_list{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid #CCC; 
+}
+.list{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #CCC;
+    background-color: #EAEAEA;
+}
+.list>p{
+    float: left;
+    width: 120px;
+    height: 120px;
+    border:1px solid #424242;
+    margin-top:20px;
+    margin-left:22px;
+    background-color: #424242;
+    overflow: hidden;
+}
+.list>p>span{
+    display: block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 30px;
+    color:#FFF; 
+}
+.list_main{
+    float: left;
+    width: 552px;
+    height: 120px;
+    margin-top:20px;
+    margin-left:22px;
+    background-color: #FFF;
+}
+.list_main>p{
+    float: left;
+    width: 400px;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.list_main>span{
+    float: left;
+    display: block;
+    width: 400px;   
+    margin-left: 40px;
+}
+.box_main{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #CCC; 
+}
